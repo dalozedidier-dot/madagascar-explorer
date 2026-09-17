@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr" data-theme="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Madagascar Explorer — fiche lieu</title>
+<meta name="description" content="Fiche détaillée d’un lieu de Madagascar Explorer.">
+<meta name="theme-color" content="#8b3a2b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%238b3a2b'/%3E%3Cpath d='M16 4c4 4 5 9 4 15-1 4-3 7-4 9-1-2-3-5-4-9-1-6 0-11 4-15Z' fill='%23f2c96d'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,650&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/discoveries.css">
+<link rel="stylesheet" href="assets/place-page.css">
+<script>try{const t=localStorage.getItem('madagascar-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body class="place-page-body">
+<a class="skip-link" href="#placeMain">Aller au contenu</a>
+<header class="topbar place-topbar">
+  <div class="topbar-in">
+    <a class="brand" href="index.html#top" aria-label="Madagascar Explorer accueil"><span class="brand-mark">MG</span><span><strong>MADAGASCAR</strong><small>EXPLORER</small></span></a>
+    <nav class="mainnav" aria-label="Navigation principale"><a href="index.html#decouvrir">Découvrir</a><a href="index.html#regions">Régions</a><a href="index.html#explorer">Carte</a><a href="index.html#itineraires">Itinéraires</a><a href="index.html#pratique">Pratique</a></nav>
+    <div class="actions"><button id="themeBtn" class="icon-btn" aria-label="Changer de thème">◐</button><a class="trip-btn place-back" href="index.html#explorer">← Retour à la carte</a></div>
+  </div>
+</header>
+<main id="placeMain">
+  <div id="placePage" class="place-page-loading"><div class="place-loading-card"><span>Madagascar Explorer</span><strong>Chargement de la fiche…</strong></div></div>
+</main>
+<footer><div class="wrap"><div><strong>MADAGASCAR EXPLORER</strong><p>Projet indépendant, informatif et non officiel. Les données pratiques doivent être vérifiées avant déplacement.</p></div><div><a href="index.html#photos">Photos & auteurs</a><a href="CREDITS.md">Sources</a><a href="README.md">À propos du projet</a></div></div></footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="data/places.js"></script>
+<script src="data/guide.js"></script>
+<script src="data/discoveries.js"></script>
+<script src="data/photos.js"></script>
+<script src="assets/place-page.js"></script>
+</body>
+</html>

@@ -22,7 +22,7 @@
 <header class="topbar">
   <div class="topbar-in">
     <a class="brand" href="#top" aria-label="Madagascar Explorer accueil"><span class="brand-mark">MG</span><span><strong>MADAGASCAR</strong><small>EXPLORER</small></span></a>
-    <nav class="mainnav" aria-label="Navigation principale"><a href="#decouvrir">Découvrir</a><a href="#explorer">Carte</a><a href="#itineraires">Itinéraires</a><a href="#pratique">Pratique</a><a href="#comprendre">Comprendre</a></nav>
+    <nav class="mainnav" aria-label="Navigation principale"><a href="#decouvrir">Découvrir</a><a href="#regions">Régions</a><a href="#explorer">Carte</a><a href="#itineraires">Itinéraires</a><a href="#pratique">Pratique</a><a href="#comprendre">Comprendre</a></nav>
     <div class="actions"><button id="themeBtn" class="icon-btn" aria-label="Changer de thème">◐</button><button id="tripBtn" class="trip-btn">♡ Mon voyage <b id="tripCount">0</b></button></div>
   </div>
 </header>
@@ -46,9 +46,13 @@
  <p id="discoveryCount" class="source-note" aria-live="polite"></p><div id="discoveryGrid" class="discovery-grid"></div>
  <p class="source-note">Durées proposées sur place, hors transferts. Photographies sous licence libre, avec leurs auteurs et conditions de réutilisation dans les <a href="#photos">crédits photographiques</a>.</p>
 </div></section>
+<section class="section region-showcase" id="regions"><div class="wrap">
+  <div class="section-head region-head"><p class="eyebrow">Choisir une zone</p><h2>Madagascar ne se visite pas comme une petite île.</h2><p>Commencez par une région, puis construisez votre voyage autour des distances réelles. Chaque carte ouvre directement la sélection correspondante.</p></div>
+  <div id="regionGrid" class="region-grid"></div>
+</div></section>
 <section class="section" id="explorer">
   <div class="wrap">
-    <div class="section-head"><p class="eyebrow">Carte interactive</p><h2>Trouvez le Madagascar qui vous ressemble</h2><p>Filtrez par région, type de lieu, effort et expérience recherchée. Les temps de route restent à vérifier localement : ici, la carte aide à choisir, pas à promettre.</p></div>
+    <div class="section-head"><p class="eyebrow">Carte interactive</p><h2>Trouvez le Madagascar qui vous ressemble</h2><p>Filtrez par région, type de lieu, effort et expérience recherchée. Les temps de route restent à vérifier localement : ici, la carte aide à choisir, pas à promettre. <strong>Cliquez un lieu pour ouvrir sa fiche complète.</strong></p></div>
     <div class="toolbar">
       <div class="search"><span>⌕</span><input id="q" type="search" placeholder="Parc, île, ville, lémuriens, plongée…" aria-label="Rechercher"><button id="qClear" aria-label="Effacer">×</button></div>
       <select id="monthSelect" aria-label="Mois de voyage"><option value="">Tous les mois</option></select>
