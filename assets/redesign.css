@@ -67,3 +67,120 @@
   .mainnav a{padding:6px 8px}.hero{height:610px}.hero-stats{grid-template-columns:1fr 1fr}.discovery-grid,.region-grid,.practical-grid{grid-template-columns:1fr}.destination-photo img,.discovery-card:first-child .destination-photo img,.discovery-card:nth-child(6) .destination-photo img,.discovery-card:nth-child(10) .destination-photo img{height:195px}.region-card,.region-card:nth-child(1),.region-card:nth-child(3),.region-card:nth-child(6),.region-card:nth-child(8){height:190px}.calendar{grid-template-columns:repeat(2,1fr)}.map-pane #map{height:430px;min-height:430px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.discovery-card,.region-card,.route-card,.btn{transition:none!important}}
+
+
+/* FINAL DISCOVERY CARD ALIGNMENT */
+.discovery-grid{
+  align-items:stretch;
+  grid-auto-rows:auto;
+}
+.discovery-card,
+.discovery-card:first-child,
+.discovery-card:nth-child(6),
+.discovery-card:nth-child(10){
+  display:flex;
+  flex-direction:column;
+  height:100%;
+  min-height:0;
+}
+.discovery-card .destination-photo,
+.discovery-card:first-child .destination-photo,
+.discovery-card:nth-child(6) .destination-photo,
+.discovery-card:nth-child(10) .destination-photo{
+  height:auto;
+  aspect-ratio:auto;
+  flex:0 0 auto;
+}
+.discovery-card .destination-photo img,
+.discovery-card:first-child .destination-photo img,
+.discovery-card:nth-child(6) .destination-photo img,
+.discovery-card:nth-child(10) .destination-photo img{
+  width:100%;
+  height:178px;
+  min-height:178px;
+  max-height:178px;
+  object-fit:cover;
+}
+.discovery-card .destination-photo figcaption{
+  box-sizing:border-box;
+  height:23px;
+  min-height:23px;
+  padding:4px 10px;
+  display:block;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  font-size:8px;
+  line-height:15px;
+}
+.discovery-body,
+.discovery-card:first-child .discovery-body{
+  flex:1;
+  display:grid;
+  grid-template-rows:auto auto auto auto auto auto;
+  align-content:start;
+  gap:8px;
+  padding:15px 16px 16px;
+}
+.discovery-body .eyebrow{
+  margin:0;
+  min-height:11px;
+  font-size:9px;
+  line-height:11px;
+}
+.discovery-body h3,
+.discovery-card:first-child .discovery-body h3{
+  margin:0;
+  min-height:2.1em;
+  font-size:23px;
+  line-height:1.05;
+  display:block;
+}
+.discovery-body .discovery-title{
+  margin:0;
+  min-height:2.7em;
+  font-size:11.5px;
+  line-height:1.35;
+}
+.discovery-body > p:not(.eyebrow):not(.discovery-title){
+  margin:0;
+  min-height:6em;
+  font-size:11.5px;
+  line-height:1.5;
+  color:var(--muted);
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:4;
+  overflow:hidden;
+}
+.discovery-body .tagline{
+  margin:2px 0 0;
+  padding:0;
+  display:flex;
+  flex-wrap:wrap;
+  gap:5px;
+  align-self:end;
+}
+.discovery-actions{
+  margin:2px 0 0;
+  padding-top:10px;
+  align-self:end;
+  width:100%;
+}
+
+@media(max-width:760px){
+  .discovery-card .destination-photo img,
+  .discovery-card:first-child .destination-photo img,
+  .discovery-card:nth-child(6) .destination-photo img,
+  .discovery-card:nth-child(10) .destination-photo img{
+    height:165px;
+    min-height:165px;
+    max-height:165px;
+  }
+  .discovery-body h3,
+  .discovery-card:first-child .discovery-body h3,
+  .discovery-body .discovery-title,
+  .discovery-body > p:not(.eyebrow):not(.discovery-title){
+    min-height:0;
+  }
+}
