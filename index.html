@@ -1,92 +1,83 @@
-<!doctype html>
-<html lang="fr" data-theme="">
+<!DOCTYPE html>
+
+<html data-theme="" lang="fr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
 <title>Madagascar Explorer — carte interactive de la Grande Île</title>
-<meta name="description" content="Explorer Madagascar : parcs, îles, plages, villes, biodiversité, itinéraires, routes, saisons et planificateur de voyage sur une carte interactive.">
-<meta name="theme-color" content="#8b3a2b">
-<meta property="og:title" content="Madagascar Explorer">
-<meta property="og:description" content="La Grande Île sur une carte interactive : lieux, itinéraires, biodiversité, routes et repères pratiques.">
-<meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%238b3a2b'/%3E%3Cpath d='M16 4c4 4 5 9 4 15-1 4-3 7-4 9-1-2-3-5-4-9-1-6 0-11 4-15Z' fill='%23f2c96d'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,650&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<link rel="stylesheet" href="assets/styles.css"><link rel="stylesheet" href="assets/discoveries.css"><link rel="stylesheet" href="assets/redesign.css">
+<meta content="Explorer Madagascar : parcs, îles, plages, villes, biodiversité, itinéraires, routes, saisons et planificateur de voyage sur une carte interactive." name="description"/>
+<meta content="#8b3a2b" name="theme-color"/>
+<meta content="Madagascar Explorer" property="og:title"/>
+<meta content="La Grande Île sur une carte interactive : lieux, itinéraires, biodiversité, routes et repères pratiques." property="og:description"/>
+<meta content="website" property="og:type"/>
+<link href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%238b3a2b'/%3E%3Cpath d='M16 4c4 4 5 9 4 15-1 4-3 7-4 9-1-2-3-5-4-9-1-6 0-11 4-15Z' fill='%23f2c96d'/%3E%3C/svg%3E" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,500;9..144,650&amp;display=swap" rel="stylesheet"/>
+<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
+<link href="assets/styles.css" rel="stylesheet"/><link href="assets/discoveries.css" rel="stylesheet"/><link href="assets/redesign.css" rel="stylesheet"/>
 <script>try{const t=localStorage.getItem('madagascar-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
 <a class="skip-link" href="#explorer">Aller à la carte</a>
 <header class="topbar">
-  <div class="topbar-in">
-    <a class="brand" href="#top" aria-label="Madagascar Explorer accueil"><span class="brand-mark">MG</span><span><strong>MADAGASCAR</strong><small>EXPLORER</small></span></a>
-    <nav class="mainnav" aria-label="Navigation principale"><a href="#decouvrir">Découvrir</a><a href="#regions">Régions</a><a href="#explorer">Carte</a><a href="#itineraires">Itinéraires</a><a href="#pratique">Pratique</a><a href="#comprendre">Comprendre</a></nav>
-    <div class="actions"><button id="themeBtn" class="icon-btn" aria-label="Changer de thème">◐</button><button id="tripBtn" class="trip-btn">♡ Mon voyage <b id="tripCount">0</b></button></div>
-  </div>
+<div class="topbar-in">
+<a aria-label="Madagascar Explorer accueil" class="brand" href="#top"><span class="brand-mark">MG</span><span><strong>MADAGASCAR</strong><small>EXPLORER</small></span></a>
+<nav aria-label="Navigation principale" class="mainnav"><a href="#explorer">Carte</a><a href="#decouvrir">Découvrir</a><a href="#regions">Régions</a><a href="#itineraires">Itinéraires</a><a href="#pratique">Pratique</a><a href="#comprendre">Comprendre</a></nav>
+<div class="actions"><button aria-label="Changer de thème" class="icon-btn" id="themeBtn">◐</button><button class="trip-btn" id="tripBtn">♡ Mon voyage <b id="tripCount">0</b></button></div>
+</div>
 </header>
-
 <section class="hero" id="top">
-  <div class="hero-shade"></div>
-  <div class="hero-in">
-    <p class="eyebrow">Madagascar · Océan Indien · Biodiversité exceptionnelle</p>
-    <h1>Madagascar,<br><em>au fil de ses merveilles.</em></h1>
-    <p class="hero-lead">Des baobabs du Menabe aux lagons de Nosy Iranja, découvrez les paysages de la Grande Île. Choisissez vos étapes, explorez la carte et composez un voyage à votre rythme.</p>
-    <div class="hero-cta"><a class="btn primary" href="#decouvrir">Découvrir les plus beaux lieux ↗</a><button class="btn ghost" id="surpriseBtn">🎲 Surprenez-moi</button></div>
-    <div class="hero-stats"><div><strong id="statPlaces">0</strong><span>lieux</span></div><div><strong id="statRoutes">0</strong><span>itinéraires</span></div><div><strong>3</strong><span>biens UNESCO</span></div><div><strong>12</strong><span>coups de cœur</span></div></div>
-  </div>
-  <p class="hero-credit" id="heroCredit"></p>
-</section>
+<div class="hero-shade"></div>
+<div class="hero-in"><div class="hero-copy"><p class="eyebrow">Madagascar · Océan Indien · Biodiversité exceptionnelle</p><h1>Madagascar,<br/><em>au fil de ses merveilles.</em></h1><p class="hero-lead">Des baobabs du Menabe aux lagons de Nosy Iranja, découvrez les paysages de la Grande Île. Choisissez vos étapes, explorez la carte et composez un voyage à votre rythme.</p><div class="hero-cta"><a class="btn primary" href="#explorer">Ouvrir la carte</a><a class="btn hero-secondary" href="#decouvrir">Voir les coups de cœur</a><button class="btn ghost" id="surpriseBtn">🎲 Surprenez-moi</button></div></div>
 
+
+
+
+<div class="hero-stats"><div><strong id="statPlaces">0</strong><span>lieux</span></div><div><strong id="statRoutes">0</strong><span>itinéraires</span></div><div><strong>3</strong><span>biens UNESCO</span></div><div><strong>12</strong><span>coups de cœur</span></div></div>
+</div>
+<p class="hero-credit" id="heroCredit"></p>
+</section>
 <main>
-<section class="section discoveries" id="decouvrir"><div class="wrap">
- <div class="discovery-heading"><div class="section-head"><p class="eyebrow">Les plus beaux lieux de l’île</p><h2>Où commence votre voyage ?</h2><p>Douze coups de cœur pour découvrir la diversité des paysages malgaches. Cette sélection vous aide à choisir une région à explorer, selon vos envies et le temps dont vous disposez.</p></div><a class="text-link" href="#explorer">Explorer les 62 lieux sur la carte ↗</a></div>
- <div class="chips discovery-filters" role="group" aria-label="Filtrer les coups de cœur"><button data-discovery="all" aria-pressed="true">Toute la sélection</button><button data-discovery="iles" aria-pressed="false">Îles & lagons</button><button data-discovery="paysages" aria-pressed="false">Grands paysages</button><button data-discovery="randonnees" aria-pressed="false">Randonnées</button><button data-discovery="forets" aria-pressed="false">Forêts & nature</button></div>
- <p id="discoveryCount" class="source-note" aria-live="polite"></p><div id="discoveryGrid" class="discovery-grid"></div>
- <p class="source-note">Durées proposées sur place, hors transferts. Photographies sous licence libre, avec leurs auteurs et conditions de réutilisation dans les <a href="#photos">crédits photographiques</a>.</p>
-</div></section>
-<section class="section region-showcase" id="regions"><div class="wrap">
-  <div class="section-head region-head"><p class="eyebrow">Choisir une zone</p><h2>Madagascar ne se visite pas comme une petite île.</h2><p>Commencez par une région, puis construisez votre voyage autour des distances réelles. Chaque carte ouvre directement la sélection correspondante.</p></div>
-  <div id="regionGrid" class="region-grid"></div>
-</div></section>
+
+
+
+
+
+
+
+
+
+
 <section class="section" id="explorer">
-  <div class="wrap">
-    <div class="section-head"><p class="eyebrow">Carte interactive</p><h2>Trouvez le Madagascar qui vous ressemble</h2><p>Filtrez par région, type de lieu, effort et expérience recherchée. Les temps de route restent à vérifier localement : ici, la carte aide à choisir, pas à promettre. <strong>Cliquez un lieu pour ouvrir sa fiche complète.</strong></p></div>
-    <div class="toolbar">
-      <div class="search"><span>⌕</span><input id="q" type="search" placeholder="Parc, île, ville, lémuriens, plongée…" aria-label="Rechercher"><button id="qClear" aria-label="Effacer">×</button></div>
-      <select id="monthSelect" aria-label="Mois de voyage"><option value="">Tous les mois</option></select>
-    </div>
-    <div class="chips" id="catChips"></div>
-    <div class="filters-row"><button id="filtersToggle" class="filter-toggle">☰ Filtres avancés <b id="filterCount" hidden>0</b></button><button id="resetBtn" class="reset" hidden>Réinitialiser</button></div>
-    <div class="filters" id="filtersPanel" hidden><div><span>Région</span><div class="opts" id="fRegion"></div></div><div><span>Effort</span><div class="opts" id="fEffort"></div></div><div><span>Expériences</span><div class="opts" id="fFlags"></div></div></div>
-    <div class="view-switch"><button data-view="map" class="active">Carte</button><button data-view="list">Liste</button></div>
-    <div class="explorer-grid">
-      <aside class="list-pane"><div class="list-head"><strong id="resultCount">0 lieu</strong><select id="sortSelect"><option value="score">Incontournables</option><option value="name">A → Z</option><option value="region">Par région</option><option value="dist" disabled>Les plus proches</option></select></div><div id="placeList" class="place-list"></div></aside>
-      <div class="map-pane"><div id="map" aria-label="Carte de Madagascar"></div><div class="map-tools"><button id="fitBtn">⌖ Toute l’île</button><button id="topBtn">★ Incontournables</button><button id="geoBtn">📍 Près de moi</button></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="section alt" id="itineraires"><div class="wrap"><div class="section-head"><p class="eyebrow">Idées de voyage</p><h2>Dix façons de lire Madagascar</h2><p>À cette échelle, un bon itinéraire est d’abord un choix de renoncements. Chaque circuit privilégie un fil conducteur clair.</p></div><div id="routeGrid" class="cards"></div></div></section>
-
-<section class="section roads" id="routes"><div class="wrap"><div class="section-head light"><p class="eyebrow">Déplacements</p><h2>Les routes comptent autant que les destinations</h2><p>Distances, pistes, bacs, pluies et sécurité peuvent transformer un trajet. Ces axes servent de repères, pas d’horaires garantis.</p></div><div id="roadGrid" class="road-grid"></div><p class="warning">⚠️ Vérifiez toujours l’état des routes et les conseils de sécurité juste avant le trajet. Les conditions peuvent évoluer rapidement.</p></div></section>
-
-<section class="section" id="pratique"><div class="wrap"><div class="section-head"><p class="eyebrow">Avant de partir</p><h2>Ce qui change vraiment le voyage</h2></div><div id="practicalGrid" class="practical-grid"></div><h3 class="subhead">Le calendrier, mois par mois</h3><div id="calendar" class="calendar"></div><p class="source-note">Lecture éditoriale générale du climat et de l’accessibilité. Madagascar présente de fortes différences régionales : l’Est, les Hautes Terres, l’Ouest et le Grand Sud ne vivent pas la même saison de la même manière.</p></div></section>
-
-<section class="section alt" id="comprendre"><div class="wrap"><div class="section-head"><p class="eyebrow">Comprendre la Grande Île</p><h2>Voir davantage que les “incontournables”</h2></div><div id="cultureGrid" class="culture-grid"></div></div></section>
-
-<section class="section" id="avenir"><div class="wrap future-grid"><article><p class="eyebrow">Prochaine étape du projet</p><h2>Développement</h2><p>Une future rubrique pour comprendre les territoires, les infrastructures, les initiatives locales et la préservation des milieux.</p><span class="mini">À venir</span></article><article><p class="eyebrow">Prochaine étape du projet</p><h2>Opportunités</h2><p>Un espace à construire autour des projets, des partenaires et des activités qui contribuent à la vie économique locale.</p><span class="mini">À venir</span></article></div></section>
-<section class="section alt" id="photos"><div class="wrap"><div class="section-head"><p class="eyebrow">Les regards derrière les images</p><h2>Photographies & crédits</h2><p>Chaque photographie conserve sa licence. Retrouvez l’auteur, le fichier original et les conditions de réutilisation ci-dessous. Les images sont redimensionnées et peuvent être recadrées à l’affichage.</p></div><div id="photoCredits" class="photo-credits"></div></div></section>
-<section class="section callout"><div class="wrap"><div><p class="eyebrow">Construire sans courir</p><h2>Votre voyage, votre rythme</h2><p>Ajoutez les lieux qui vous intéressent. Le planificateur les conserve dans votre navigateur et permet de les répartir par jours.</p></div><button class="btn primary" id="openTripBottom">Ouvrir mon voyage</button></div></section>
-</main>
-
-<footer><div class="wrap"><div><strong>MADAGASCAR EXPLORER</strong><p>Projet indépendant, informatif et non officiel. Les données pratiques doivent être vérifiées avant déplacement.</p></div><div><a href="#photos">Photos & auteurs</a><a href="CREDITS.md">Sources</a><a href="#avenir">Développement & opportunités</a><a href="README.md">À propos du projet</a><a href="https://github.com/dalozedidier-dot" rel="noopener">GitHub</a></div></div></footer>
-
-<div id="sheet" class="sheet" hidden><div class="sheet-backdrop" data-close-sheet></div><article class="sheet-card" role="dialog" aria-modal="true" aria-label="Détail du lieu" tabindex="-1"><button class="sheet-close" data-close-sheet aria-label="Fermer">×</button><div id="sheetContent"></div></article></div>
-<div id="tripDrawer" class="drawer" hidden><div class="drawer-backdrop" data-close-trip></div><aside><div class="drawer-head"><div><p class="eyebrow">Planificateur</p><h2>Mon voyage</h2></div><button data-close-trip>×</button></div><div id="tripDays"></div><div class="drawer-actions"><button id="addDayBtn">+ Ajouter un jour</button><button id="clearTripBtn" class="danger">Vider</button></div></aside></div>
-<div id="toast" class="toast" role="status" aria-live="polite"></div>
-
+<div class="wrap">
+<div class="section-head"><p class="eyebrow">Carte interactive</p><h2>Explorez la Grande Île</h2><p>62 lieux à filtrer par région, type, effort ou expérience. Ouvrez ensuite chaque destination pour consulter sa fiche complète.</p></div>
+<div class="toolbar">
+<div class="search"><span>⌕</span><input aria-label="Rechercher" id="q" placeholder="Parc, île, ville, lémuriens, plongée…" type="search"/><button aria-label="Effacer" id="qClear">×</button></div>
+<select aria-label="Mois de voyage" id="monthSelect"><option value="">Tous les mois</option></select>
+</div>
+<div class="chips" id="catChips"></div>
+<div class="filters-row"><button class="filter-toggle" id="filtersToggle">☰ Filtres avancés <b hidden="" id="filterCount">0</b></button><button class="reset" hidden="" id="resetBtn">Réinitialiser</button></div>
+<div class="filters" hidden="" id="filtersPanel"><div><span>Région</span><div class="opts" id="fRegion"></div></div><div><span>Effort</span><div class="opts" id="fEffort"></div></div><div><span>Expériences</span><div class="opts" id="fFlags"></div></div></div>
+<div class="view-switch"><button class="active" data-view="map">Carte</button><button data-view="list">Liste</button></div>
+<div class="explorer-grid">
+<aside class="list-pane"><div class="list-head"><strong id="resultCount">0 lieu</strong><select id="sortSelect"><option value="score">Incontournables</option><option value="name">A → Z</option><option value="region">Par région</option><option disabled="" value="dist">Les plus proches</option></select></div><div class="place-list" id="placeList"></div></aside>
+<div class="map-pane"><div aria-label="Carte de Madagascar" id="map"></div><div class="map-tools"><button id="fitBtn">⌖ Toute l’île</button><button id="topBtn">★ Incontournables</button><button id="geoBtn">📍 Près de moi</button></div></div>
+</div>
+</div>
+</section><section class="section discoveries" id="decouvrir"><div class="wrap">
+<div class="discovery-heading"><div class="section-head"><p class="eyebrow">Les plus beaux lieux de l’île</p><h2>Où commence votre voyage ?</h2><p>Douze coups de cœur pour découvrir la diversité des paysages malgaches. Cette sélection vous aide à choisir une région à explorer, selon vos envies et le temps dont vous disposez.</p></div><a class="text-link" href="#explorer">Explorer les 62 lieux sur la carte ↗</a></div>
+<div aria-label="Filtrer les coups de cœur" class="chips discovery-filters" role="group"><button aria-pressed="true" data-discovery="all">Toute la sélection</button><button aria-pressed="false" data-discovery="iles">Îles &amp; lagons</button><button aria-pressed="false" data-discovery="paysages">Grands paysages</button><button aria-pressed="false" data-discovery="randonnees">Randonnées</button><button aria-pressed="false" data-discovery="forets">Forêts &amp; nature</button></div>
+<p aria-live="polite" class="source-note" id="discoveryCount"></p><div class="discovery-grid" id="discoveryGrid"></div>
+<p class="source-note">Durées proposées sur place, hors transferts. Photographies sous licence libre, avec leurs auteurs et conditions de réutilisation dans les <a href="#photos">crédits photographiques</a>.</p>
+</div></section><section class="section region-showcase" id="regions"><div class="wrap">
+<div class="section-head region-head"><p class="eyebrow">Choisir une zone</p><h2>Madagascar ne se visite pas comme une petite île.</h2><p>Commencez par une région, puis construisez votre voyage autour des distances réelles. Chaque carte ouvre directement la sélection correspondante.</p></div>
+<div class="region-grid" id="regionGrid"></div>
+</div></section><section class="section alt" id="itineraires"><div class="wrap"><div class="section-head"><p class="eyebrow">Idées de voyage</p><h2>Dix façons de lire Madagascar</h2><p>À cette échelle, un bon itinéraire est d’abord un choix de renoncements. Chaque circuit privilégie un fil conducteur clair.</p></div><div class="cards" id="routeGrid"></div></div></section><section class="section roads" id="routes"><div class="wrap"><div class="section-head light"><p class="eyebrow">Déplacements</p><h2>Les routes comptent autant que les destinations</h2><p>Distances, pistes, bacs, pluies et sécurité peuvent transformer un trajet. Ces axes servent de repères, pas d’horaires garantis.</p></div><div class="road-grid" id="roadGrid"></div><p class="warning">⚠️ Vérifiez toujours l’état des routes et les conseils de sécurité juste avant le trajet. Les conditions peuvent évoluer rapidement.</p></div></section><section class="section" id="pratique"><div class="wrap"><div class="section-head"><p class="eyebrow">Avant de partir</p><h2>Ce qui change vraiment le voyage</h2></div><div class="practical-grid" id="practicalGrid"></div><h3 class="subhead">Le calendrier, mois par mois</h3><div class="calendar" id="calendar"></div><p class="source-note">Lecture éditoriale générale du climat et de l’accessibilité. Madagascar présente de fortes différences régionales : l’Est, les Hautes Terres, l’Ouest et le Grand Sud ne vivent pas la même saison de la même manière.</p></div></section><section class="section alt" id="comprendre"><div class="wrap"><div class="section-head"><p class="eyebrow">Comprendre la Grande Île</p><h2>Voir davantage que les “incontournables”</h2></div><div class="culture-grid" id="cultureGrid"></div></div></section><section class="section" id="avenir"><div class="wrap future-grid"><article><p class="eyebrow">Prochaine étape du projet</p><h2>Développement</h2><p>Une future rubrique pour comprendre les territoires, les infrastructures, les initiatives locales et la préservation des milieux.</p><span class="mini">À venir</span></article><article><p class="eyebrow">Prochaine étape du projet</p><h2>Opportunités</h2><p>Un espace à construire autour des projets, des partenaires et des activités qui contribuent à la vie économique locale.</p><span class="mini">À venir</span></article></div></section><section class="section alt" id="photos"><div class="wrap"><div class="section-head"><p class="eyebrow">Les regards derrière les images</p><h2>Photographies &amp; crédits</h2><p>Chaque photographie conserve sa licence. Retrouvez l’auteur, le fichier original et les conditions de réutilisation ci-dessous. Les images sont redimensionnées et peuvent être recadrées à l’affichage.</p></div><div class="photo-credits" id="photoCredits"></div></div></section><section class="section callout"><div class="wrap"><div><p class="eyebrow">Construire sans courir</p><h2>Votre voyage, votre rythme</h2><p>Ajoutez les lieux qui vous intéressent. Le planificateur les conserve dans votre navigateur et permet de les répartir par jours.</p></div><button class="btn primary" id="openTripBottom">Ouvrir mon voyage</button></div></section></main>
+<footer><div class="wrap"><div><strong>MADAGASCAR EXPLORER</strong><p>Projet indépendant, informatif et non officiel. Les données pratiques doivent être vérifiées avant déplacement.</p></div><div><a href="#photos">Photos &amp; auteurs</a><a href="CREDITS.md">Sources</a><a href="#avenir">Développement &amp; opportunités</a><a href="README.md">À propos du projet</a><a href="https://github.com/dalozedidier-dot" rel="noopener">GitHub</a></div></div></footer>
+<div class="sheet" hidden="" id="sheet"><div class="sheet-backdrop" data-close-sheet=""></div><article aria-label="Détail du lieu" aria-modal="true" class="sheet-card" role="dialog" tabindex="-1"><button aria-label="Fermer" class="sheet-close" data-close-sheet="">×</button><div id="sheetContent"></div></article></div>
+<div class="drawer" hidden="" id="tripDrawer"><div class="drawer-backdrop" data-close-trip=""></div><aside><div class="drawer-head"><div><p class="eyebrow">Planificateur</p><h2>Mon voyage</h2></div><button data-close-trip="">×</button></div><div id="tripDays"></div><div class="drawer-actions"><button id="addDayBtn">+ Ajouter un jour</button><button class="danger" id="clearTripBtn">Vider</button></div></aside></div>
+<div aria-live="polite" class="toast" id="toast" role="status"></div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="data/places.js"></script><script src="data/itineraries.js"></script><script src="data/roads.js"></script><script src="data/guide.js"></script><script src="data/discoveries.js"></script><script src="data/photos.js"></script><script src="assets/app.js"></script>
 </body></html>
