@@ -65,3 +65,7 @@ Code sous licence MIT. Les données et médias conservent leurs licences propres
 Douze destinations mises en avant avant la carte, filtrables par paysages, îles, randonnées et forêts. Les photos sont locales et leurs crédits sont affichés sous les images ainsi que dans la section photographique. `data/photos.js` conserve les sources, auteurs, licences et modifications. `data/discoveries.js` contient les textes et suggestions de séjour. Les rubriques Développement et Opportunités sont annoncées pour une prochaine étape.
 
 Prévisualisation locale : `node scripts/preview.cjs`, puis http://127.0.0.1:8000.
+
+## Couverture des fiches
+
+Les fiches affichent désormais une photographie créditée lorsqu’une image libre et suffisamment pertinente a été retenue. La couverture photographique atteint **60 fiches sur 62** ; les lieux restant sans image affichent volontairement un emplacement neutre plutôt qu’une photographie approximative. Chaque fiche comprend aussi des expériences associées, un conseil de préparation, des coordonnées indicatives et trois lieux proches à combiner.

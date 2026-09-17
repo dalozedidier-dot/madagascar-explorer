@@ -141,3 +141,55 @@ Madagascar Explorer n’est pas un site officiel, un tour-opérateur, ni un serv
 ## Sélection de découverte
 
 Les douze coups de cœur constituent une sélection éditoriale, sans classement objectif. Les durées proposées sont des suggestions de séjour sur place, hors transferts. Les descriptions prolongent les fiches du projet et les repères de l’[Office national du tourisme](https://madagascar-tourisme.com/wp-content/uploads/2025/04/Carte-touristique-Madagascar.pdf). Le parcours de Bemaraha s’appuie sur la [présentation du parc par l’office du tourisme](https://madagascar-tourisme.com/fr/la-destination/le-nord-ouest/tsingy-de-bemaraha/).
+## Photographies complémentaires des fiches
+
+Les fiches ci-dessous utilisent des photographies libres supplémentaires chargées depuis Wikimedia Commons. Les crédits sont également affichés sous chaque image dans le site. Vérification des métadonnées : 17 septembre 2026.
+
+- **antananarivo** : [Antananarivo city.jpg](https://commons.wikimedia.org/wiki/File:Antananarivo_city.jpg) — Bluerose25 — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **rova-antananarivo** : [Rova Manjakamiadana Palais de la Reine.jpg](https://commons.wikimedia.org/wiki/File:Rova_Manjakamiadana_Palais_de_la_Reine.jpg) — Peacekeeper44 — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **ambohimanga** : [Ambohimanga.jpg](https://commons.wikimedia.org/wiki/File:Ambohimanga.jpg) — Jose Antonio — [Domaine public](https://creativecommons.org/publicdomain/mark/1.0/).
+- **lemurs-park** : [Fat-tailed dwarf lemur.JPG](https://commons.wikimedia.org/wiki/File:Fat-tailed_dwarf_lemur.JPG) — SurreyJohn — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **antsirabe** : [Antsirabe Madagaskar.jpg](https://commons.wikimedia.org/wiki/File:Antsirabe_Madagaskar.jpg) — Htfischer — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **lac-tritriva** : [Lac Tritriva.jpg](https://commons.wikimedia.org/wiki/File:Lac_Tritriva.jpg) — Zodago — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **lac-andraikiba** : [Andraikiba Lake, Antsirabe.jpg](https://commons.wikimedia.org/wiki/File:Andraikiba_Lake,_Antsirabe.jpg) — Anai171 — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **ambositra** : [Ambositra.JPG](https://commons.wikimedia.org/wiki/File:Ambositra.JPG) — Antonio Canessa — [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/).
+- **fianarantsoa** : [Ville de Fianarantsoa.jpg](https://commons.wikimedia.org/wiki/File:Ville_de_Fianarantsoa.jpg) — Hoby42 — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **ambalavao** : [Ambalavao house.jpg](https://commons.wikimedia.org/wiki/File:Ambalavao_house.jpg) — Bernard Gagnon — [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+- **anja** : [Anja Reserve, Madagascar (3953856468).jpg](https://commons.wikimedia.org/wiki/File:Anja_Reserve,_Madagascar_(3953856468).jpg) — Antony Stanley — [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
+- **andasibe** : [Andasibe, Madagascar.jpg](https://commons.wikimedia.org/wiki/File:Andasibe,_Madagascar.jpg) — M M — [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
+- **vakona-island** : [Bruine maki Vakona-eiland 05.JPG](https://commons.wikimedia.org/wiki/File:Bruine_maki_Vakona-eiland_05.JPG) — Heinonlein — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **pangalanes** : [Canal du Pangalane à l'est de Madagascar.jpg](https://commons.wikimedia.org/wiki/File:Canal_du_Pangalane_%C3%A0_l'est_de_Madagascar.jpg) — Mammysou17 — [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+- **akanin-ny-nofy** : [Brookesia nofy 01.jpg](https://commons.wikimedia.org/wiki/File:Brookesia_nofy_01.jpg) — Thomas Fuhrmann — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **toamasina** : [Port de Toamasina.jpg](https://commons.wikimedia.org/wiki/File:Port_de_Toamasina.jpg) — HoneyGaLe — [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+- **sainte-marie** : [Beach, Île Sainte-Marie (3957816273).jpg](https://commons.wikimedia.org/wiki/File:Beach,_%C3%8Ele_Sainte-Marie_(3957816273).jpg) — Antony Stanley — [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
+- **morondava** : [Morondava.jpg](https://commons.wikimedia.org/wiki/File:Morondava.jpg) — Bernard Gagnon — [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+- **baobab-amoureux** : [Baobab amoureux à Madagascar.jpg](https://commons.wikimedia.org/wiki/File:Baobab_amoureux_%C3%A0_Madagascar.jpg) — Kam1jwiki — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **kirindy** : [Kirindy, Morondava, Madagascar.jpg](https://commons.wikimedia.org/wiki/File:Kirindy,_Morondava,_Madagascar.jpg) — Cactus0625 — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **belo-tsiribihina** : [Belo-sur-Tsiribihina.JPG](https://commons.wikimedia.org/wiki/File:Belo-sur-Tsiribihina.JPG) — Heinonlein — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **miandrivazo** : [Miandrivazo.jpg](https://commons.wikimedia.org/wiki/File:Miandrivazo.jpg) — Bernard Gagnon — [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+- **belo-sur-mer** : [Belo sur mer, Madagascar.jpg](https://commons.wikimedia.org/wiki/File:Belo_sur_mer,_Madagascar.jpg) — Cactus0625 — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **ankarafantsika** : [Coquerel's Sifaka, Ankarafantsika, Madagascar.jpg](https://commons.wikimedia.org/wiki/File:Coquerel's_Sifaka,_Ankarafantsika,_Madagascar.jpg) — Frank Vassen — [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+- **mahajanga** : [Grand Baobab du bord de la mer mahajanga.jpg](https://commons.wikimedia.org/wiki/File:Grand_Baobab_du_bord_de_la_mer_mahajanga.jpg) — HBoina — [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+- **pic-boby** : [Pic Boby (1).jpg](https://commons.wikimedia.org/wiki/File:Pic_Boby_(1).jpg) — Chris — [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
+- **fenetre-isalo** : [Isalo-National-Park-03.jpg](https://commons.wikimedia.org/wiki/File:Isalo-National-Park-03.jpg) — Wayne77 — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **zombitse** : [Parque Nacional de Zombitse Vohibasia Madagascar 20171109 113353.jpg](https://commons.wikimedia.org/wiki/File:Parque_Nacional_de_Zombitse_Vohibasia_Madagascar_20171109_113353.jpg) — Josefito123 — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **toliara** : [1toliara.jpg](https://commons.wikimedia.org/wiki/File:1toliara.jpg) — MAURO Didier — [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+- **arboretum-antsokay** : [Tuléar - Arboretum d'Antsokay-01 (Madagascar).JPG](https://commons.wikimedia.org/wiki/File:Tul%C3%A9ar_-_Arboretum_d'Antsokay-01_(Madagascar).JPG) — Wayne77 — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **ifaty** : [Ifaty beach Madagascar.jpg](https://commons.wikimedia.org/wiki/File:Ifaty_beach_Madagascar.jpg) — Bernard Gagnon — [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+- **reniala** : [Reniala (Parc de)-09 (Madagascar).jpg](https://commons.wikimedia.org/wiki/File:Reniala_(Parc_de)-09_(Madagascar).jpg) — Wayne77 — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **anakao** : [Anakao Beach.jpg](https://commons.wikimedia.org/wiki/File:Anakao_Beach.jpg) — sussexbirder — [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+- **nosy-ve** : [Nosy Ve Island.jpg](https://commons.wikimedia.org/wiki/File:Nosy_Ve_Island.jpg) — sussexbirder — [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+- **tsimanampetsotsa** : [Lake Tsimanampetsotsa, south-western Madagascar (4315971898).jpg](https://commons.wikimedia.org/wiki/File:Lake_Tsimanampetsotsa,_south-western_Madagascar_(4315971898).jpg) — Frank Vassen — [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
+- **antsiranana** : [Antsiranana-Madagascar.jpg](https://commons.wikimedia.org/wiki/File:Antsiranana-Madagascar.jpg) — Chirocca77 — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **montagne-ambre** : [Petit Cascade du Montagne d'Ambre.jpg](https://commons.wikimedia.org/wiki/File:Petit_Cascade_du_Montagne_d'Ambre.jpg) — HYL56 — [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- **ankaranna** : [Nature de parc de l'ANKARANA Madagascar.jpg](https://commons.wikimedia.org/wiki/File:Nature_de_parc_de_l'ANKARANA_Madagascar.jpg) — Crisufix — [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+- **ramena** : [Ramena.jpg](https://commons.wikimedia.org/wiki/File:Ramena.jpg) — Tonton Bernardo — [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+- **trois-baies** : [Baie des dunes.jpg](https://commons.wikimedia.org/wiki/File:Baie_des_dunes.jpg) — Juliannah23 — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **nosy-be** : [Nosy Be Madagascar.jpg](https://commons.wikimedia.org/wiki/File:Nosy_Be_Madagascar.jpg) — Claudia Rahary Soa — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **lokobe** : [Lokobe.jpg](https://commons.wikimedia.org/wiki/File:Lokobe.jpg) — Jean-Louis Vandevivère — [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
+- **nosy-komba** : [View of Nosy Komba, Madagascar.jpg](https://commons.wikimedia.org/wiki/File:View_of_Nosy_Komba,_Madagascar.jpg) — Jean-Louis Vandevivère — [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
+- **nosy-sakatia** : [Pez payaso de Madagascar (Amphiprion latifasciatus), Nosy Sakatia, Madagascar, 2025-09-18, DD 34.jpg](https://commons.wikimedia.org/wiki/File:Pez_payaso_de_Madagascar_(Amphiprion_latifasciatus),_Nosy_Sakatia,_Madagascar,_2025-09-18,_DD_34.jpg) — Diego Delso — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **maroantsetra** : [MAROANTSETRA.jpg](https://commons.wikimedia.org/wiki/File:MAROANTSETRA.jpg) — Claudia Rahary Soa — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **nosy-mangabe** : [NOSY MANGABE.jpg](https://commons.wikimedia.org/wiki/File:NOSY_MANGABE.jpg) — Claudia Rahary Soa — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **fort-dauphin** : [MBH 0068.JPG](https://commons.wikimedia.org/wiki/File:MBH_0068.JPG) — MAMYJOSEPHNICOLAS — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+- **libanona** : [Libanona Beach - Tolagnaro - Madagascar.jpg](https://commons.wikimedia.org/wiki/File:Libanona_Beach_-_Tolagnaro_-_Madagascar.jpg) — Thelezifor — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
