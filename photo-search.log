@@ -1,0 +1,336 @@
+allee-baobabs [
+  {
+    title: 'File:Adansonia grandidieri04.jpg',
+    license: 'CC BY-SA 3.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Bgag" title="User:Bgag">Bernard Gagnon</a>',
+    description: `<a href="https://en.wikipedia.org/wiki/Grandidier%27s_Baobab" class="extiw" title="en:Grandidier's Baobab">Grandidier's Baobab</a>, picture taken near Morondava, Madagascar.`
+  },
+  {
+    title: 'File:Baobab Avenue.JPG',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Pasleim" title="User:Pasleim">Pasleim</a>',
+    description: 'Baobab-Allee bei Morondava'
+  },
+  {
+    title: 'File:Milky Way over Avenue of Baobabs (ann22042n).jpg',
+    license: 'CC BY 4.0',
+    artist: 'Amirreza Kamkar/IAU OAE',
+    description: '<strong>Image title: Milky Way over Avenue of Baobabs</strong><br><strong>Author: Amirreza Kamkar</strong><br><strong>Country: Germany</strong><br>This image, taken from the Avenue of Baobabs, Morondava, Madagascar, in July 2017, shows the majestic band of the Milky Way, our home galaxy, together with a rich collection of constellations and asterisms: Crux, Centaurus, Scorpius, Sagittarius and the Teapot asterism. Towards the bottom left of the image we can see the Southern Cross and the pointer stars Alpha (the brighter of the two) and Beta Centauri, which help to distinguish it from similar-looking configurations. Some cultures in Africa associate the Southern Cross with a giraffe, while others associate the constellations with a pride of lions or even with the Tree of Life. Antares, the brightest star in the constellation Scorpius, is the orange-red star straight up from the middle baobab tree. To the Pokomo people from southwestern Kenya, Africa, the Milky Way is associated with the smoke emanating from a campfire lit by ancient people. The various people in South Africa, in contrast, have different star tales; the Khoikhoi from the region around Cape Town explained the colours of the red and white stars as red and white roots that were roasted on a fire and thrown towards the sky together with the ashes of the fire. The Xhosa from further east consider the Milky Way the raised bristle of a huge angry dog, while the Zulu from near Johannesburg interpret it as a stream of spears of their strongest warriors. Polynesian people, who were adept seafarers and navigators, see the constellation Scorpius as a fish hook, and refer to it as the demigod Maui’s Fish Hook. For the Djab Wurrung and the Jardwadjali people, the Southern Cross is part of a Dreamtime Story involving Tchingal, the Bram-bram-bult brothers (the pointer stars), their mother Druk (Delta Crux), and Bunya, the hunter who gets changed into a possum (Gacrux, red star at the top of the Southern Cross). In this image, the planets Saturn (the bright point above Antares) and Jupiter (the bright point at the bottom-right of the image close to the trunk of the baobab tree) are visible. Indigenous cultures have various stories associated with the planets, for example Kamilaroi and Wailan people associate Saturn with wunygal, a small bird. The Boorong people of Western Victoria associate Jupiter with Ginabongbearp, the chief of the old spirits (Nurrumbunguttias), who takes the totemic form of the sulphur-crested white cockatoo. Also see image in Zenodo: <a rel="nofollow" class="external text" href="https://doi.org/10.5281/zenodo.7424009">https://doi.org/10.5281/zenodo.7424009</a>'
+  },
+  {
+    title: 'File:Baobab Avenue 1.JPG',
+    license: 'CC BY-SA 3.0',
+    artist: '<a href="https://en.wikipedia.org/wiki/User:Fox-Talbot" class="extiw" title="en:User:Fox-Talbot">Fox-Talbot</a>',
+    description: 'Baobab Trees near Morondava, November, 2001.'
+  },
+  {
+    title: 'File:Goats in front of Avenue of the Baobabs.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/w/index.php?title=User:Chainsawpunk&amp;action=edit&amp;redlink=1" class="new" title="User:Chainsawpunk (page does not exist)">Chainsawpunk</a>',
+    description: 'Goats in front of Avenue of the Baobabs'
+  }
+]
+nosy-iranja [
+  {
+    title: 'File:Nosy Iranja, Madagascar, 2025-09-17, DD 21.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<bdi><a href="https://www.wikidata.org/wiki/Q28147777" class="extiw" title="d:Q28147777"><span title="Spanish photographer">Diego Delso</span></a></bdi>',
+    description: 'Nosy Iranja, Madagascar'
+  },
+  {
+    title: 'File:Calamar de arrecifes (Sepioteuthis lessoniana), Nosy Iranja, Madagascar, 2025-09-17, DD 90.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<bdi><a href="https://www.wikidata.org/wiki/Q28147777" class="extiw" title="d:Q28147777"><span title="Spanish photographer">Diego Delso</span></a></bdi>',
+    description: 'Bigfin reef squid (Sepioteuthis lessoniana), Nosy Iranja, Madagascar'
+  },
+  {
+    title: 'File:Calamar de arrecifes (Sepioteuthis lessoniana), Nosy Iranja, Madagascar, 2025-09-17, DD 134.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<bdi><a href="https://www.wikidata.org/wiki/Q28147777" class="extiw" title="d:Q28147777"><span title="Spanish photographer">Diego Delso</span></a></bdi>',
+    description: 'Bigfin reef squid (Sepioteuthis lessoniana), Nosy Iranja, Madagascar'
+  },
+  {
+    title: 'File:Caracol marino (Cypraea tigris), Nosy Iranja, Madagascar, 2025-09-17, DD 95.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Poco_a_poco" title="User:Poco a poco">Poco a poco</a>',
+    description: 'Tiger cowrie (<i>Cypraea tigris</i>), Ambalihabe, Madagascar'
+  },
+  {
+    title: 'File:Nosy Iranja, Madagascar, 2025-09-17, DD 18.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<bdi><a href="https://www.wikidata.org/wiki/Q28147777" class="extiw" title="d:Q28147777"><span title="Spanish photographer">Diego Delso</span></a></bdi>',
+    description: 'Nosy Iranja, Madagascar'
+  }
+]
+tsingy-bemaraha [
+  {
+    title: 'File:Tsingy de Bemaraha.jpg',
+    license: 'CC BY-SA 3.0',
+    artist: 'My father (who approves of its use)',
+    description: '<a href="https://en.wikipedia.org/wiki/Tsingy_de_Bemaraha_Strict_Nature_Reserve" class="extiw" title="en:Tsingy de Bemaraha Strict Nature Reserve">Tsingy de Bemaraha Strict Nature Reserve</a> in Madagascar.'
+  },
+  {
+    title: 'File:Tsingy de Bemaraha, Madagascar.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Cactus0625" title="User:Cactus0625">Cactus0625</a>',
+    description: 'Tsingy de Bemaraha, Madagascar'
+  },
+  {
+    title: 'File:Végétation Tsingy de Bemaraha, Madagascar.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Cactus0625" title="User:Cactus0625">Cactus0625</a>',
+    description: 'Végétation Tsingy de Bemaraha, Madagascar'
+  },
+  {
+    title: 'File:Parc Tsingy de Bemaraha, Madagascar.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Cactus0625" title="User:Cactus0625">Cactus0625</a>',
+    description: 'Parc Tsingy de Bemaraha, Madagascar'
+  },
+  {
+    title: 'File:Circuit Andamozavaky, Tsingy de Bemaraha, Madagascar.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Cactus0625" title="User:Cactus0625">Cactus0625</a>',
+    description: 'Circuit Andamozavaky, Tsingy de Bemaraha, Madagascar'
+  }
+]
+isalo [
+  {
+    title: 'File:Isalo valley.jpg',
+    license: 'CC BY-SA 2.0',
+    artist: '<a rel="nofollow" class="external text" href="https://www.flickr.com/people/rod_waddington/">Rod Waddington</a> <span class="mw-valign-text-top noprint" typeof="mw:File/Frameless"><a href="//commons.wikimedia.org/wiki/File:Isalo_valley.jpg#P170" title="Edit this at Structured Data on Commons"><img alt="Edit this at Structured Data on Commons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" width="10" height="10" class="mw-file-element" data-file-width="20" data-file-height="20"></a></span>',
+    description: 'The Isalo valley in Madagascar <span class="mw-valign-text-top noprint" typeof="mw:File/Frameless"><a href="//commons.wikimedia.org/wiki/File:Isalo_valley.jpg#ooui-php-4" title="Edit this at Structured Data on Commons"><img alt="Edit this at Structured Data on Commons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" width="10" height="10" class="mw-file-element" data-file-width="20" data-file-height="20"></a></span>'
+  },
+  {
+    title: 'File:Isalo landscape.jpg',
+    license: 'CC BY-SA 3.0',
+    artist: 'No machine-readable author provided. <a href="//commons.wikimedia.org/wiki/User:Moongateclimber" title="User:Moongateclimber">Moongateclimber</a> assumed (based on copyright claims).',
+    description: 'Landscape from a viewpoint in Isalo National Park, Madagascar'
+  },
+  {
+    title: 'File:Isalo National Park 2013 25.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Smiley.toerist" title="User:Smiley.toerist">Smiley.toerist</a>',
+    description: 'Isalo National park'
+  },
+  {
+    title: 'File:Isalo National Park 2013 27.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Smiley.toerist" title="User:Smiley.toerist">Smiley.toerist</a>',
+    description: 'Isalo National park'
+  },
+  {
+    title: 'File:Isalo small.jpg',
+    license: 'CC BY-SA 3.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:AxelStrauss" title="User:AxelStrauss">Axel Strauß</a>',
+    description: 'Isalo National Park, whole mountain range at the end of rainy season'
+  }
+]
+ile-aux-nattes [
+  {
+    title: 'File:Beach Ile Aux Nattes.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:JialiangGao" title="User:JialiangGao">JialiangGao</a> <a rel="nofollow" class="external text" href="http://www.peace-on-earth.org">www.peace-on-earth.org</a>',
+    description: 'The beach at the southeast side of Île aux Nattes (Nosy Nanto), Madagascar.'
+  },
+  {
+    title: 'File:Ile aux nattes, Madagascar (26067878865).jpg',
+    license: 'CC BY-SA 2.0',
+    artist: '<a rel="nofollow" class="external text" href="https://www.flickr.com/people/141297921@N05">krishna naudin</a>',
+    description: 'Ile aux nattes, Madagascar'
+  },
+  {
+    title: 'File:Ile aux nattes, Madagascar (26043399856).jpg',
+    license: 'CC BY-SA 2.0',
+    artist: '<a rel="nofollow" class="external text" href="https://www.flickr.com/people/141297921@N05">krishna naudin</a>',
+    description: 'Ile aux nattes, Madagascar'
+  },
+  {
+    title: 'File:Ile-aux-Nattes.jpg',
+    license: 'CC BY-SA 3.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Gloumouth1" title="User:Gloumouth1">Gloumouth1</a>',
+    description: 'Île aux Nattes (Nosy Nanto)'
+  },
+  {
+    title: 'File:Unique Madagascar.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/w/index.php?title=User:Fabiola_espinoza_castellon&amp;action=edit&amp;redlink=1" class="new" title="User:Fabiola espinoza castellon (page does not exist)">Fabiola espinoza castellon</a>',
+    description: 'This picture was taken in Iles aux Nattes, a very small island in the north of Madagascar. At the time this picture was taken, back in 2009, this place was a little piece of heaven in Earth. I remember being waked up by the soothing sound of the waves, to admire the beauty of this land, its crystal water beaches and still conserved nature. I also remember that the inhabitant of this island were beyond gentle and full of aspirations. I remember young girls and boys willing to talk to us, not to receive something, but just by the curiosity of a foreign person in their island. And so, I imagine that by the time I took this picture, this two young boys were caught up in their daily routine, a routine surrounded by peace and the beauty of their island, but I also imagine they had true aspirations for a great future. \n' +
+      'More than 10 years later, I hope this island has kept its virgin beauty, and I also hope this boys are living a life they are proud of.'
+  }
+]
+tsaranoro [
+  {
+    title: 'File:East Face of Karambony in Tsaranoro Valley, Madagascar.jpg',
+    license: 'CC BY-SA 2.0 fr',
+    artist: 'Benoît Robert',
+    description: 'East Face of Karambony in Tsaranoro Valley, Madagascar'
+  },
+  {
+    title: 'File:Tsaranoro reserve 2013 08.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Smiley.toerist" title="User:Smiley.toerist">Smiley.toerist</a>',
+    description: 'De Andringitra bergen'
+  },
+  {
+    title: 'File:Tsaranoro reserve 2013 26.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Smiley.toerist" title="User:Smiley.toerist">Smiley.toerist</a>',
+    description: 'De Tsaranoro vallei'
+  },
+  {
+    title: 'File:Tsaranoro reserve 2013 07.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Smiley.toerist" title="User:Smiley.toerist">Smiley.toerist</a>',
+    description: 'De Andringitra bergen'
+  },
+  {
+    title: 'File:Tsaranoro reserve 2013 21.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Smiley.toerist" title="User:Smiley.toerist">Smiley.toerist</a>',
+    description: 'Lemuren in het Tsara Camp tijdens het ontbijt'
+  }
+]
+mer-emeraude [
+  {
+    title: 'File:Madagascar Orange Patchouli Body and Hand Soap.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/w/index.php?title=User:Beastxjason&amp;action=edit&amp;redlink=1" class="new" title="User:Beastxjason (page does not exist)">Beastxjason</a>',
+    description: '<a rel="nofollow" class="external free" href="https://lemoncreekapothecary.com/products/madagascar-orange-patchouli">https://lemoncreekapothecary.com/products/madagascar-orange-patchouli</a>  Madagascar Orange Patchouli \n' +
+      '<p>Gaze into the emerald sea and watch the giant orange sun seep into the Indian Ocean of Madagascar. Warm patchouli notes and complemented with sweet citrus without being overbearing. Sensual and seductive, we’ve pressed this body bar with the most luscious ingredients that will surely draw romance your way.\n' +
+      '</p><p>ORANGE \n' +
+      '</p><p>Reduces dark spots and blemishes via vitamin C.\n' +
+      'Fights off free radicals to prevent premature skin aging.\n' +
+      'Antibacterial properties help fight acne.\n' +
+      'Boosts circulation in the skin.\n' +
+      'Promotes cell growth and collagen synthesis.\n' +
+      'PATCHOULI\n' +
+      '</p><p>Relieves  headaches\n' +
+      'Grounding and balancing effect on emotions\n' +
+      'Facilitates wound healing\n' +
+      'Heals feelings of separation \n' +
+      '</p>\n' +
+      'Attracts love and romance'
+  },
+  {
+    title: "File:Mauritius and Madagascar- journals of an eight years' residence in the diocese of Mauritius, and of a visit to Madagascar (IA mauritiusmadagas00ryan).pdf",
+    license: 'Public domain',
+    artist: '<div class="fn value">\nRyan, Vincent William, 1816-1888</div>',
+    description: '<div class="description">\nSubjects: Missions; Missions</div>'
+  },
+  {
+    title: 'File:Mauritius and Madagascar- Journals of an Eight Years Residence in the Diocese of Mauritius and of a Visit to Madagascar (IA dli.granth.73789).pdf',
+    license: 'Public domain',
+    artist: '<div class="fn value">\nRyan, Vincent W.</div>',
+    description: '<div class="description">\n' +
+      '<dl><dd><p>Source: Asiatic Society of Mumbai<br>Identifier: BK_00060333<br>Digitization Sponsor: Government of Maharashtra</p></dd>\n' +
+      '<dd>Original Source: &lt;a href="<a rel="nofollow" class="external free" href="https://granthsanjeevani.com/jspui/handle/123456789/73789">https://granthsanjeevani.com/jspui/handle/123456789/73789</a>" rel="nofollow"&gt;Item 73789&lt;/a&gt;</dd></dl>\n' +
+      '<br>Subjects: Book;  Geography and Travel; Granth Sanjeevani</div>'
+  },
+  {
+    title: 'File:Through Western Madagascar in quest of the golden bean (IA throughwesternma00marc).pdf',
+    license: 'Public domain',
+    artist: '<div class="fn value">\nMarcuse, Walter D</div>',
+    description: '<div class="description">\n' +
+      '<p>Includes index\n' +
+      '</p>\n' +
+      '<br>Subjects: Marcuse, Walter D; Lima bean</div>'
+  },
+  {
+    title: 'File:The world of the sea (IA worldofsea00moqu).pdf',
+    license: 'Public domain',
+    artist: '<div class="fn value">\n' +
+      '<dl><dd>Moquin-Tandon, Alfred, 1804-1863</dd>\n' +
+      '<dd>Hart, Henry Martyn</dd></dl></div>',
+    description: '<div class="description">\n' +
+      '<p>extracted picklist\n' +
+      '</p>\n' +
+      '<br>Subjects: Ocean; Natural history</div>'
+  }
+]
+tsingy-rouges [
+  {
+    title: "File:Tsingy rouge-D'Irodo-Antsiranana II Madagascar 06.jpg",
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Chirocca77" title="User:Chirocca77">Chirocca77</a>',
+    description: 'dans la commune Ankaronga-AntsirananaII'
+  },
+  {
+    title: 'File:Tsingy Rouge-Ankarangona.jpg',
+    license: 'CC BY-SA 3.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Tonton_Bernardo" title="User:Tonton Bernardo">Tonton Bernardo</a>',
+    description: 'Tsingy Rouge-Ankarangona'
+  },
+  {
+    title: 'File:Tsingy Rouges Madagascar - panoramio (1).jpg',
+    license: 'CC BY 3.0',
+    artist: '<a rel="nofollow" class="external text" href="https://web.archive.org/web/20161028015247/http://www.panoramio.com/user/7204433?with_photo_id=99893151">Hiroki Ogawa</a>',
+    description: 'Tsingy Rouges Madagascar'
+  },
+  {
+    title: 'File:Tsingy Rouges Madagascar - panoramio (2).jpg',
+    license: 'CC BY 3.0',
+    artist: '<a rel="nofollow" class="external text" href="https://web.archive.org/web/20161028132930/http://www.panoramio.com/user/7204433?with_photo_id=99893178">Hiroki Ogawa</a>',
+    description: 'Tsingy Rouges Madagascar'
+  },
+  {
+    title: 'File:Red Tsingy (explore) - Flickr - Rod Waddington.jpg',
+    license: 'CC BY-SA 2.0',
+    artist: '<a rel="nofollow" class="external text" href="https://www.flickr.com/people/64607715@N05">Rod Waddington</a> from Kergunyah, Australia',
+    description: 'Madagascar'
+  }
+]
+ranomafana [
+  {
+    title: 'File:Knowing Our Lands and Resources - Indigenous and Local Knowledge of biodiversity and Ecosystem Services in Africa.pdf',
+    license: 'CC BY-SA 3.0',
+    artist: 'Roué, Marie; Césard, Nicolas; Adou Yao, Yves Constant; Oteng-Yeboah, Alfred',
+    description: 'Knowing Our Lands and Resources - Indigenous and Local Knowledge of biodiversity and Ecosystem Services in Africa'
+  },
+  {
+    title: 'File:California Digital Library (IA naturalistinmada00sibriala).pdf',
+    license: 'Public domain',
+    artist: '<div class="fn value">\nSibree, James, 1836-1929</div>',
+    description: '<div class="description">\n' +
+      'Subjects: Natural history -- Madagascar; Madagascar</div>'
+  },
+  {
+    title: 'File:Madagascar of to-day. A sketch of the island, with chapters on its past history and present prospects (IA madagascaroftoda00cousiala).pdf',
+    license: 'Public domain',
+    artist: '<div class="fn value">\nCousins, W. E. (William Edward), 1840-1939</div>',
+    description: '<div class="description">\n' +
+      'Subjects: Missions -- Madagascar; Madagascar</div>'
+  }
+]
+masoala [
+  {
+    title: 'File:Plage ( masoala Park).jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Claudia_Rahary_Soa" title="User:Claudia Rahary Soa">Claudia Rahary Soa</a>',
+    description: 'Place dans le parc national masoala'
+  },
+  {
+    title: 'File:Parc National Masoala ( mer dans ce Parc).jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Claudia_Rahary_Soa" title="User:Claudia Rahary Soa">Claudia Rahary Soa</a>',
+    description: "C'est une état de mer vue de haut dans le parc national masoala"
+  },
+  {
+    title: 'File:Plage dans le cap masoala.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Claudia_Rahary_Soa" title="User:Claudia Rahary Soa">Claudia Rahary Soa</a>',
+    description: 'Madagascar plage'
+  },
+  {
+    title: 'File:Coucher de soleil à cap masoala.jpg',
+    license: 'CC BY-SA 4.0',
+    artist: '<a href="//commons.wikimedia.org/wiki/User:Claudia_Rahary_Soa" title="User:Claudia Rahary Soa">Claudia Rahary Soa</a>',
+    description: 'Madagascar'
+  },
+  {
+    title: 'File:Concealing illegal rosewood 002.jpg',
+    license: 'CC BY-SA 3.0',
+    artist: 'Erik Patel',
+    description: 'Workers concealing illegally logged rosewood by burying it at a beach near Cap Est, adjacent to Masoala National Park'
+  }
+]

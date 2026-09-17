@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,650&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/styles.css"><link rel="stylesheet" href="assets/discoveries.css">
 <script>try{const t=localStorage.getItem('madagascar-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
@@ -22,7 +22,7 @@
 <header class="topbar">
   <div class="topbar-in">
     <a class="brand" href="#top" aria-label="Madagascar Explorer accueil"><span class="brand-mark">MG</span><span><strong>MADAGASCAR</strong><small>EXPLORER</small></span></a>
-    <nav class="mainnav" aria-label="Navigation principale"><a href="#explorer">Carte</a><a href="#itineraires">Itinéraires</a><a href="#routes">Routes</a><a href="#pratique">Pratique</a><a href="#comprendre">Comprendre</a></nav>
+    <nav class="mainnav" aria-label="Navigation principale"><a href="#decouvrir">Découvrir</a><a href="#explorer">Carte</a><a href="#itineraires">Itinéraires</a><a href="#pratique">Pratique</a><a href="#comprendre">Comprendre</a></nav>
     <div class="actions"><button id="themeBtn" class="icon-btn" aria-label="Changer de thème">◐</button><button id="tripBtn" class="trip-btn">♡ Mon voyage <b id="tripCount">0</b></button></div>
   </div>
 </header>
@@ -31,15 +31,21 @@
   <div class="hero-shade"></div>
   <div class="hero-in">
     <p class="eyebrow">Madagascar · Océan Indien · Biodiversité exceptionnelle</p>
-    <h1>Explorez la Grande Île<br><em>sans la réduire à une carte postale.</em></h1>
-    <p class="hero-lead">Forêts humides, tsingy, hauts plateaux, baobabs, lagons et communautés locales. Un outil pour choisir une région, comprendre les distances et construire un voyage réaliste.</p>
-    <div class="hero-cta"><a class="btn primary" href="#explorer">Ouvrir la carte</a><button class="btn ghost" id="surpriseBtn">🎲 Surprenez-moi</button></div>
-    <div class="hero-stats"><div><strong id="statPlaces">0</strong><span>lieux</span></div><div><strong id="statRoutes">0</strong><span>itinéraires</span></div><div><strong>3</strong><span>biens UNESCO</span></div><div><strong>7</strong><span>grandes zones</span></div></div>
+    <h1>Madagascar,<br><em>au fil de ses merveilles.</em></h1>
+    <p class="hero-lead">Des baobabs du Menabe aux lagons de Nosy Iranja, découvrez les paysages de la Grande Île. Choisissez vos étapes, explorez la carte et composez un voyage à votre rythme.</p>
+    <div class="hero-cta"><a class="btn primary" href="#decouvrir">Découvrir les plus beaux lieux ↗</a><button class="btn ghost" id="surpriseBtn">🎲 Surprenez-moi</button></div>
+    <div class="hero-stats"><div><strong id="statPlaces">0</strong><span>lieux</span></div><div><strong id="statRoutes">0</strong><span>itinéraires</span></div><div><strong>3</strong><span>biens UNESCO</span></div><div><strong>12</strong><span>coups de cœur</span></div></div>
   </div>
-  <p class="hero-credit">Photo : Allée des Baobabs, Wikimedia Commons · CC BY-SA / GFDL</p>
+  <p class="hero-credit" id="heroCredit"></p>
 </section>
 
 <main>
+<section class="section discoveries" id="decouvrir"><div class="wrap">
+ <div class="discovery-heading"><div class="section-head"><p class="eyebrow">Les plus beaux lieux de l’île</p><h2>Où commence votre voyage ?</h2><p>Douze coups de cœur pour découvrir la diversité des paysages malgaches. Cette sélection vous aide à choisir une région à explorer, selon vos envies et le temps dont vous disposez.</p></div><a class="text-link" href="#explorer">Explorer les 62 lieux sur la carte ↗</a></div>
+ <div class="chips discovery-filters" role="group" aria-label="Filtrer les coups de cœur"><button data-discovery="all" aria-pressed="true">Toute la sélection</button><button data-discovery="iles" aria-pressed="false">Îles & lagons</button><button data-discovery="paysages" aria-pressed="false">Grands paysages</button><button data-discovery="randonnees" aria-pressed="false">Randonnées</button><button data-discovery="forets" aria-pressed="false">Forêts & nature</button></div>
+ <p id="discoveryCount" class="source-note" aria-live="polite"></p><div id="discoveryGrid" class="discovery-grid"></div>
+ <p class="source-note">Durées proposées sur place, hors transferts. Photographies sous licence libre, avec leurs auteurs et conditions de réutilisation dans les <a href="#photos">crédits photographiques</a>.</p>
+</div></section>
 <section class="section" id="explorer">
   <div class="wrap">
     <div class="section-head"><p class="eyebrow">Carte interactive</p><h2>Trouvez le Madagascar qui vous ressemble</h2><p>Filtrez par région, type de lieu, effort et expérience recherchée. Les temps de route restent à vérifier localement : ici, la carte aide à choisir, pas à promettre.</p></div>
@@ -66,15 +72,17 @@
 
 <section class="section alt" id="comprendre"><div class="wrap"><div class="section-head"><p class="eyebrow">Comprendre la Grande Île</p><h2>Voir davantage que les “incontournables”</h2></div><div id="cultureGrid" class="culture-grid"></div></div></section>
 
+<section class="section" id="avenir"><div class="wrap future-grid"><article><p class="eyebrow">Prochaine étape du projet</p><h2>Développement</h2><p>Une future rubrique pour comprendre les territoires, les infrastructures, les initiatives locales et la préservation des milieux.</p><span class="mini">À venir</span></article><article><p class="eyebrow">Prochaine étape du projet</p><h2>Opportunités</h2><p>Un espace à construire autour des projets, des partenaires et des activités qui contribuent à la vie économique locale.</p><span class="mini">À venir</span></article></div></section>
+<section class="section alt" id="photos"><div class="wrap"><div class="section-head"><p class="eyebrow">Les regards derrière les images</p><h2>Photographies & crédits</h2><p>Chaque photographie conserve sa licence. Retrouvez l’auteur, le fichier original et les conditions de réutilisation ci-dessous. Les images sont redimensionnées et peuvent être recadrées à l’affichage.</p></div><div id="photoCredits" class="photo-credits"></div></div></section>
 <section class="section callout"><div class="wrap"><div><p class="eyebrow">Construire sans courir</p><h2>Votre voyage, votre rythme</h2><p>Ajoutez les lieux qui vous intéressent. Le planificateur les conserve dans votre navigateur et permet de les répartir par jours.</p></div><button class="btn primary" id="openTripBottom">Ouvrir mon voyage</button></div></section>
 </main>
 
-<footer><div class="wrap"><div><strong>MADAGASCAR EXPLORER</strong><p>Projet indépendant, informatif et non officiel. Les données pratiques doivent être vérifiées avant déplacement.</p></div><div><a href="CREDITS.md">Sources & crédits</a><a href="README.md">À propos du projet</a><a href="https://github.com/dalozedidier-dot" rel="noopener">GitHub</a></div></div></footer>
+<footer><div class="wrap"><div><strong>MADAGASCAR EXPLORER</strong><p>Projet indépendant, informatif et non officiel. Les données pratiques doivent être vérifiées avant déplacement.</p></div><div><a href="#photos">Photos & auteurs</a><a href="CREDITS.md">Sources</a><a href="#avenir">Développement & opportunités</a><a href="README.md">À propos du projet</a><a href="https://github.com/dalozedidier-dot" rel="noopener">GitHub</a></div></div></footer>
 
-<div id="sheet" class="sheet" hidden><div class="sheet-backdrop" data-close-sheet></div><article class="sheet-card"><button class="sheet-close" data-close-sheet aria-label="Fermer">×</button><div id="sheetContent"></div></article></div>
+<div id="sheet" class="sheet" hidden><div class="sheet-backdrop" data-close-sheet></div><article class="sheet-card" role="dialog" aria-modal="true" aria-label="Détail du lieu" tabindex="-1"><button class="sheet-close" data-close-sheet aria-label="Fermer">×</button><div id="sheetContent"></div></article></div>
 <div id="tripDrawer" class="drawer" hidden><div class="drawer-backdrop" data-close-trip></div><aside><div class="drawer-head"><div><p class="eyebrow">Planificateur</p><h2>Mon voyage</h2></div><button data-close-trip>×</button></div><div id="tripDays"></div><div class="drawer-actions"><button id="addDayBtn">+ Ajouter un jour</button><button id="clearTripBtn" class="danger">Vider</button></div></aside></div>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script src="data/places.js"></script><script src="data/itineraries.js"></script><script src="data/roads.js"></script><script src="data/guide.js"></script><script src="assets/app.js"></script>
+<script src="data/places.js"></script><script src="data/itineraries.js"></script><script src="data/roads.js"></script><script src="data/guide.js"></script><script src="data/discoveries.js"></script><script src="data/photos.js"></script><script src="assets/app.js"></script>
 </body></html>
